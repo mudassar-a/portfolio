@@ -552,6 +552,20 @@ body::after {
     font-weight: 500;
 }
 
+.project-link {
+    display: inline-flex;
+    margin-top: 1.25rem;
+    color: var(--primary-light);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.project-link:hover {
+    color: var(--text-primary);
+}
+
 /* ================================
    Skills
    ================================ */
