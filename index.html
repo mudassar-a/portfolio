@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mudassar Ahmed — Computational Physicist</title>
+<meta name="description" content="Mudassar Ahmed — computational physicist working on machine learning for physical models and simulation-based cosmological inference.">
+<style>
+  :root{
+    --ink:#22303c;
+    --muted:#5b6b7a;
+    --navy:#00539c;
+    --navy-dark:#003a6e;
+    --rule:#d8dee5;
+    --bg:#fbfaf8;
+    --card:#ffffff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:0 22px}
+  a{color:var(--navy);text-decoration:none}
+  a:hover{text-decoration:underline}
+  h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:600}
+
+  /* header */
+  header{border-bottom:1px solid var(--rule);background:var(--card)}
+  .masthead{display:flex;gap:28px;align-items:center;padding:44px 0 36px;flex-wrap:wrap}
+  .masthead img{
+    width:120px;height:160px;object-fit:cover;border:1px solid var(--rule);
+    border-radius:3px;flex-shrink:0
+  }
+  .masthead h1{font-size:1.9rem;color:var(--navy-dark);letter-spacing:.01em}
+  .masthead .role{color:var(--muted);margin-top:4px;font-size:1.02rem}
+  .masthead .loc{color:var(--muted);font-size:.9rem;margin-top:2px}
+  .links{margin-top:12px;font-size:.92rem}
+  .links a{margin-right:14px;white-space:nowrap}
+  nav{padding:10px 0;border-top:1px solid var(--rule);font-size:.9rem}
+  nav a{margin-right:20px;color:var(--muted)}
+  nav a:hover{color:var(--navy)}
+
+  /* sections */
+  section{padding:34px 0 6px}
+  h2{
+    font-size:1.22rem;color:var(--navy-dark);
+    padding-bottom:8px;border-bottom:2px solid var(--rule);margin-bottom:18px
+  }
+  p{margin-bottom:12px;max-width:72ch}
+  .muted{color:var(--muted)}
+
+  /* research cards */
+  .item{padding:14px 0;border-bottom:1px solid var(--rule)}
+  .item:last-child{border-bottom:none}
+  .item h3{font-size:1.03rem;color:var(--ink)}
+  .item .meta{font-size:.85rem;color:var(--muted);margin:2px 0 6px}
+  .item p{font-size:.95rem;margin-bottom:4px}
+  .tag{
+    display:inline-block;font-size:.75rem;color:var(--navy);
+    border:1px solid var(--rule);border-radius:3px;padding:1px 8px;margin-left:6px;
+    vertical-align:2px;background:var(--card)
+  }
+
+  /* publications */
+  ol.pubs{list-style:none;counter-reset:pub}
+  ol.pubs li{
+    padding:10px 0 10px 0;border-bottom:1px solid var(--rule);font-size:.95rem
+  }
+  ol.pubs li:last-child{border-bottom:none}
+  .venue{font-style:italic}
+  .status{font-size:.8rem;color:var(--muted)}
+
+  /* two-column facts */
+  .facts{display:grid;grid-template-columns:1fr 1fr;gap:6px 32px;font-size:.95rem}
+  @media(max-width:640px){.facts{grid-template-columns:1fr}}
+  .facts div{padding:6px 0;border-bottom:1px dotted var(--rule)}
+  .facts b{font-weight:600}
+
+  footer{
+    margin-top:40px;padding:26px 0 40px;border-top:1px solid var(--rule);
+    font-size:.88rem;color:var(--muted)
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="masthead">
+      <img src="assets/mudassar.jpg" alt="Mudassar Ahmed">
+      <div>
+        <h1>Mudassar Ahmed</h1>
+        <div class="role">Computational physicist — machine learning for physical models and simulation-based cosmological inference</div>
+        <div class="loc">Dina, Jhelum, Punjab, Pakistan</div>
+        <div class="links">
+          <a href="mailto:mudassarahmed854@gmail.com">Email</a>
+          <a href="https://github.com/mudassar-a" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=rRmlgUwAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/mudassar854/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#software">Software</a>
+      <a href="#teaching">Teaching</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I work on machine learning for physical models. My published first-author paper
+      (<span class="venue">Chinese Physics C</span>) fuses large theoretical model grids with sparse precision
+      measurements through transfer learning and Bayesian-optimised regression. A second study, under review in
+      <span class="venue">Astronomy and Computing</span>, benchmarks whether neural summaries and estimators
+      extract known cosmological information with calibrated uncertainties.
+    </p>
+    <p>
+      I completed my M.S. in Physics at the Institute of Space Technology, Islamabad, in April 2025 with
+      Cum Laude distinction (CGPA 3.63/4.00). My interests sit where imperfect theory meets scarce data:
+      characterising model systematics, validating inference pipelines end to end, and reporting what a method
+      can and cannot do.
+    </p>
+    <div class="facts">
+      <div><b>M.S. Physics</b> — Institute of Space Technology, 2025 (Cum Laude)</div>
+      <div><b>M.Sc. Physics</b> — University of Gujrat, 2021</div>
+      <div><b>B.Sc. Physics &amp; Mathematics</b> — University of the Punjab, 2019</div>
+      <div><b>Thesis</b> — AI-driven prediction of nuclear charge radii</div>
+    </div>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+
+    <div class="item">
+      <h3>Estimator efficiency in simulation-based inference from large-scale structure <span class="tag">under review</span></h3>
+      <div class="meta">Independent project (CosmoWebSBI), 2026 — Astronomy and Computing</div>
+      <p>
+        A controlled benchmark of 14,400 log-normal large-scale-structure mocks over (&Omega;<sub>m</sub>,
+        &sigma;<sub>8</sub>, b). Neural posterior estimation from the power spectrum, counts-in-cells and a 3D-CNN
+        field embedding, validated with simulation-based calibration, coverage tests, and Fisher and MCMC
+        baselines. Posteriors recovered &Omega;<sub>m</sub> to about 2% of the prior width; combining summaries
+        added only 3.6% in figure of merit, reported as a near-null result.
+      </p>
+    </div>
+
+    <div class="item">
+      <h3>Machine learning for nuclear charge radii <span class="tag">published</span></h3>
+      <div class="meta">M.S. thesis, 2024–2025 — Chinese Physics C 50(2), 024109</div>
+      <p>
+        A transfer-learning neural network pre-trained on 7,517 relativistic mean-field calculations and
+        fine-tuned on 1,017 measured radii, cutting root-mean-square error by 51.7% against previously published
+        networks, alongside a Bayesian-optimised CatBoost regressor (test RMSE 0.0090 fm). Both models reproduce
+        shell closures and deformation trends.
+      </p>
+    </div>
+
+    <div class="item">
+      <h3>TESS transit classification with liquid time-constant networks <span class="tag">in progress</span></h3>
+      <div class="meta">2026</div>
+      <p>
+        Parameter-efficient continuous-time neural networks for classifying planetary transits in photometric
+        light curves from the Transiting Exoplanet Survey Satellite.
+      </p>
+    </div>
+
+    <div class="item">
+      <h3>Stellar-system dynamics on GPUs</h3>
+      <div class="meta">2022–2023 — AGAMA + PhiGPU</div>
+      <p>
+        Monte-Carlo initial conditions and N-body evolution of stellar systems (Plummer, King, NFW and
+        Hernquist profiles) on GPU hardware.
+      </p>
+    </div>
+
+    <div class="item">
+      <h3>High-performance nuclear-structure workflows</h3>
+      <div class="meta">2024–2025 — NCGSA, Institute of Space Technology</div>
+      <p>
+        MPI-parallel finite-temperature Hartree–Bogoliubov calculations (DIRHBZ_BLV, Intel oneAPI), EV8
+        potential-energy-surface automation, and a DD-PCX parametrisation in DIRHB.
+      </p>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <ol class="pubs">
+      <li>
+        <b>Ahmed, M.</b>, Khan, A. K., Nabi, J.-U., &amp; Hamid, L. (2026). Bayesian-optimized CatBoost for
+        ground-state nuclear charge-radius prediction. <span class="venue">Chinese Physics C</span>, 50(2), 024109.
+        <a href="https://doi.org/10.1088/1674-1137/ae19dc" target="_blank" rel="noopener">DOI: 10.1088/1674-1137/ae19dc</a>
+      </li>
+      <li>
+        <b>Ahmed, M.</b> (2026). On Estimator Efficiency in Simulation-Based Inference from the Large-Scale
+        Structure of the Universe. <span class="venue">Astronomy and Computing</span>.
+        <span class="status">Under review.</span>
+      </li>
+      <li>
+        <b>Ahmed, M.</b>, Kabir, A., Waleed, S., Fatima, A., &amp; Shahid, L. (2026). Extreme Gradient Boosting for
+        Accurate Prediction of Neutron Separation Energies with Leave-One-Chain-Out Validation.
+        <span class="venue">Arabian Journal for Science and Engineering</span>.
+        <span class="status">Under review.</span>
+      </li>
+      <li>
+        Khan, A. K., <b>Ahmed, M.</b>, Saleh, H. M., Berbache, S., Fatima, A., Shahid, L., &amp; Hamid, L. (2026).
+        Physics-Augmented Machine Learning for the Rapid Prediction of Neutron Skin Thickness in the PC-L3R
+        Covariant Density Functional. <span class="venue">Modern Physics Letters A</span>.
+        <span class="status">Under review.</span>
+      </li>
+      <li>
+        Waleed, S., Islam, S. U., Saleem, M., &amp; <b>Ahmed, M.</b> (2026). Stiffness-Sensitive Geometric Sheaf
+        Graph Neural Networks from Conformer Ensemble Covariances for Aqueous Solubility Prediction in Drug
+        Discovery. <span class="venue">Journal of Computer-Aided Molecular Design</span>.
+        <span class="status">Revision submitted.</span>
+      </li>
+    </ol>
+  </section>
+
+  <section id="software">
+    <h2>Software</h2>
+    <div class="item">
+      <h3><a href="https://github.com/mudassar-a/snapshot2gaia" target="_blank" rel="noopener">snapshot2gaia</a></h3>
+      <p>Simulation-to-observation reference pipeline for Gaia Data Release 3.</p>
+    </div>
+    <div class="item">
+      <h3><a href="https://github.com/mudassar-a/XGB_SN" target="_blank" rel="noopener">XGB_SN</a></h3>
+      <p>XGBoost with leave-one-chain-out validation for neutron separation energies.</p>
+    </div>
+    <div class="item">
+      <h3><a href="https://github.com/mudassar-a/astro-code-survey" target="_blank" rel="noopener">astro-code-survey</a></h3>
+      <p>A curated public directory of 59 open-source astrophysics codes.</p>
+    </div>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching &amp; Mentoring</h2>
+    <div class="item">
+      <p>
+        I have taught physics and mathematics since 2021 — as a full-time lecturer and later part-time visiting
+        lecturer at Aspire College Dina (B.S. courses including computing tools for mathematics, thermodynamics
+        and probability &amp; statistics), and as a school teacher with the Federal Directorate of Education,
+        Islamabad. Since 2025 I assist Dr. Abdul Kabir Khan at the Institute of Space Technology in supervising
+        three B.S. students on machine learning for nuclear ground-state properties.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Mudassar Ahmed · <a href="mailto:mudassarahmed854@gmail.com">mudassarahmed854@gmail.com</a> ·
+    <a href="https://github.com/mudassar-a" target="_blank" rel="noopener">github.com/mudassar-a</a>
+  </div>
+</footer>
+
+</body>
+</html>
